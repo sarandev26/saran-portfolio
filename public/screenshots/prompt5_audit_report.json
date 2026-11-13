@@ -1,0 +1,433 @@
+{
+  "hero": {
+    "1280x720": {
+      "h1Text": "I design products people love to use.",
+      "serifText": "love to use.",
+      "subText": "A detail-oriented designer with 2+ years of experience crafting intuitive, user-centered products. I design web, mobile and software, and I build premium 3D websites with AI-powered vibe coding.",
+      "portraitWidth": 228,
+      "portraitHeight": 256,
+      "ctasToPortraitGap": 122,
+      "subToCtasGap": 9,
+      "stats": [
+        {
+          "num": "2+",
+          "label": "Years of experience",
+          "top": 772,
+          "bottom": 859,
+          "width": 170,
+          "height": 87
+        },
+        {
+          "num": "3",
+          "label": "Roles",
+          "top": 772,
+          "bottom": 859,
+          "width": 170,
+          "height": 87
+        }
+      ],
+      "hasOverlap": false,
+      "scrollCueVisible": false
+    },
+    "1366x768": {
+      "h1Text": "I design products people love to use.",
+      "serifText": "love to use.",
+      "subText": "A detail-oriented designer with 2+ years of experience crafting intuitive, user-centered products. I design web, mobile and software, and I build premium 3D websites with AI-powered vibe coding.",
+      "portraitWidth": 243,
+      "portraitHeight": 273,
+      "ctasToPortraitGap": 139,
+      "subToCtasGap": 10,
+      "stats": [
+        {
+          "num": "2+",
+          "label": "Years of experience",
+          "top": 816,
+          "bottom": 905,
+          "width": 181,
+          "height": 88
+        },
+        {
+          "num": "3",
+          "label": "Roles",
+          "top": 816,
+          "bottom": 905,
+          "width": 181,
+          "height": 88
+        }
+      ],
+      "hasOverlap": false,
+      "scrollCueVisible": false
+    },
+    "1440x900": {
+      "h1Text": "I design products people love to use.",
+      "serifText": "love to use.",
+      "subText": "A detail-oriented designer with 2+ years of experience crafting intuitive, user-centered products. I design web, mobile and software, and I build premium 3D websites with AI-powered vibe coding.",
+      "portraitWidth": 285,
+      "portraitHeight": 320,
+      "ctasToPortraitGap": 109,
+      "subToCtasGap": 12,
+      "stats": [
+        {
+          "num": "2+",
+          "label": "Years of experience",
+          "top": 934,
+          "bottom": 1030,
+          "width": 189,
+          "height": 96
+        },
+        {
+          "num": "3",
+          "label": "Roles",
+          "top": 934,
+          "bottom": 1030,
+          "width": 189,
+          "height": 96
+        }
+      ],
+      "hasOverlap": false,
+      "scrollCueVisible": false
+    },
+    "1920x1080": {
+      "h1Text": "I design products people love to use.",
+      "serifText": "love to use.",
+      "subText": "A detail-oriented designer with 2+ years of experience crafting intuitive, user-centered products. I design web, mobile and software, and I build premium 3D websites with AI-powered vibe coding.",
+      "portraitWidth": 342,
+      "portraitHeight": 383,
+      "ctasToPortraitGap": 188,
+      "subToCtasGap": 14,
+      "stats": [
+        {
+          "num": "2+",
+          "label": "Years of experience",
+          "top": 1091,
+          "bottom": 1201,
+          "width": 189,
+          "height": 110
+        },
+        {
+          "num": "3",
+          "label": "Roles",
+          "top": 1091,
+          "bottom": 1201,
+          "width": 189,
+          "height": 110
+        }
+      ],
+      "hasOverlap": false,
+      "scrollCueVisible": false
+    },
+    "390x844_mobile": {
+      "h1Text": "I design products people love to use.",
+      "serifText": "love to use.",
+      "subText": "A detail-oriented designer with 2+ years of experience crafting intuitive, user-centered products. I design web, mobile and software, and I build premium 3D websites with AI-powered vibe coding.",
+      "portraitWidth": 290,
+      "portraitHeight": 325,
+      "ctasToPortraitGap": 24,
+      "subToCtasGap": 11,
+      "stats": [
+        {
+          "num": "2+",
+          "label": "Years of experience",
+          "top": 984,
+          "bottom": 1068,
+          "width": 165,
+          "height": 84
+        },
+        {
+          "num": "3",
+          "label": "Roles",
+          "top": 1092,
+          "bottom": 1176,
+          "width": 165,
+          "height": 84
+        }
+      ],
+      "hasOverlap": false,
+      "scrollCueVisible": false
+    }
+  },
+  "work": {
+    "1280x720": {
+      "totalCards": 5,
+      "hasDemoLink": true,
+      "demoText": "View Demo ↗",
+      "caseText": "Case study →",
+      "categoryText": "Animated",
+      "isBesideCaseStudy": true,
+      "demoCaseGap": 6,
+      "titleDemoOverlap": false
+    },
+    "1366x768": {
+      "totalCards": 5,
+      "hasDemoLink": true,
+      "demoText": "View Demo ↗",
+      "caseText": "Case study →",
+      "categoryText": "Animated",
+      "isBesideCaseStudy": true,
+      "demoCaseGap": 6,
+      "titleDemoOverlap": false
+    },
+    "1440x900": {
+      "totalCards": 5,
+      "hasDemoLink": true,
+      "demoText": "View Demo ↗",
+      "caseText": "Case study →",
+      "categoryText": "Animated",
+      "isBesideCaseStudy": true,
+      "demoCaseGap": 6,
+      "titleDemoOverlap": false
+    },
+    "1920x1080": {
+      "totalCards": 5,
+      "hasDemoLink": true,
+      "demoText": "View Demo ↗",
+      "caseText": "Case study →",
+      "categoryText": "Animated",
+      "isBesideCaseStudy": true,
+      "demoCaseGap": 6,
+      "titleDemoOverlap": false
+    },
+    "390x844_mobile": {
+      "totalCards": 5,
+      "hasDemoLink": true,
+      "demoText": "View Demo ↗",
+      "caseText": "Case study →",
+      "categoryText": "Animated",
+      "isBesideCaseStudy": true,
+      "demoCaseGap": 6,
+      "titleDemoOverlap": false
+    }
+  },
+  "connect": {
+    "1280x720": {
+      "h2Text": "Open to roles and projects.",
+      "serifText": "projects.",
+      "ledeText": "Best at turning messy requirements into clean, usable interfaces.",
+      "photos": [
+        {
+          "src": "http://localhost:3000/images/connect/connect-01.jpg",
+          "alt": "Saran SM wearing a pale yellow button-down shirt and black trousers, smiling with hands in pockets",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 223,
+          "height": 287,
+          "ratioCalc": "0.779"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-02.jpg",
+          "alt": "Saran SM wearing a navy blue button-down shirt and grey trousers, standing in front of wooden paneling and green potted plants",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 180,
+          "height": 232,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-03.jpg",
+          "alt": "Saran SM wearing a white patterned short-sleeved shirt, taking a phone mirror selfie in front of a red wall with bold typography",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 26%",
+          "width": 187,
+          "height": 241,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-04.jpg",
+          "alt": "Saran SM wearing a black academic graduation gown with a red stole, holding a degree certificate outdoors",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 18%",
+          "width": 162,
+          "height": 211,
+          "ratioCalc": "0.769"
+        }
+      ]
+    },
+    "1366x768": {
+      "h2Text": "Open to roles and projects.",
+      "serifText": "projects.",
+      "ledeText": "Best at turning messy requirements into clean, usable interfaces.",
+      "photos": [
+        {
+          "src": "http://localhost:3000/images/connect/connect-01.jpg",
+          "alt": "Saran SM wearing a pale yellow button-down shirt and black trousers, smiling with hands in pockets",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 238,
+          "height": 306,
+          "ratioCalc": "0.779"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-02.jpg",
+          "alt": "Saran SM wearing a navy blue button-down shirt and grey trousers, standing in front of wooden paneling and green potted plants",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 192,
+          "height": 247,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-03.jpg",
+          "alt": "Saran SM wearing a white patterned short-sleeved shirt, taking a phone mirror selfie in front of a red wall with bold typography",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 26%",
+          "width": 199,
+          "height": 257,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-04.jpg",
+          "alt": "Saran SM wearing a black academic graduation gown with a red stole, holding a degree certificate outdoors",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 18%",
+          "width": 173,
+          "height": 225,
+          "ratioCalc": "0.769"
+        }
+      ]
+    },
+    "1440x900": {
+      "h2Text": "Open to roles and projects.",
+      "serifText": "projects.",
+      "ledeText": "Best at turning messy requirements into clean, usable interfaces.",
+      "photos": [
+        {
+          "src": "http://localhost:3000/images/connect/connect-01.jpg",
+          "alt": "Saran SM wearing a pale yellow button-down shirt and black trousers, smiling with hands in pockets",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 251,
+          "height": 323,
+          "ratioCalc": "0.779"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-02.jpg",
+          "alt": "Saran SM wearing a navy blue button-down shirt and grey trousers, standing in front of wooden paneling and green potted plants",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 202,
+          "height": 261,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-03.jpg",
+          "alt": "Saran SM wearing a white patterned short-sleeved shirt, taking a phone mirror selfie in front of a red wall with bold typography",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 26%",
+          "width": 210,
+          "height": 271,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-04.jpg",
+          "alt": "Saran SM wearing a black academic graduation gown with a red stole, holding a degree certificate outdoors",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 18%",
+          "width": 183,
+          "height": 238,
+          "ratioCalc": "0.769"
+        }
+      ]
+    },
+    "1920x1080": {
+      "h2Text": "Open to roles and projects.",
+      "serifText": "projects.",
+      "ledeText": "Best at turning messy requirements into clean, usable interfaces.",
+      "photos": [
+        {
+          "src": "http://localhost:3000/images/connect/connect-01.jpg",
+          "alt": "Saran SM wearing a pale yellow button-down shirt and black trousers, smiling with hands in pockets",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 262,
+          "height": 336,
+          "ratioCalc": "0.779"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-02.jpg",
+          "alt": "Saran SM wearing a navy blue button-down shirt and grey trousers, standing in front of wooden paneling and green potted plants",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 205,
+          "height": 264,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-03.jpg",
+          "alt": "Saran SM wearing a white patterned short-sleeved shirt, taking a phone mirror selfie in front of a red wall with bold typography",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 26%",
+          "width": 216,
+          "height": 278,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-04.jpg",
+          "alt": "Saran SM wearing a black academic graduation gown with a red stole, holding a degree certificate outdoors",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 18%",
+          "width": 190,
+          "height": 248,
+          "ratioCalc": "0.768"
+        }
+      ]
+    },
+    "390x844_mobile": {
+      "h2Text": "Open to roles and projects.",
+      "serifText": "projects.",
+      "ledeText": "Best at turning messy requirements into clean, usable interfaces.",
+      "photos": [
+        {
+          "src": "http://localhost:3000/images/connect/connect-01.jpg",
+          "alt": "Saran SM wearing a pale yellow button-down shirt and black trousers, smiling with hands in pockets",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 142,
+          "height": 182,
+          "ratioCalc": "0.779"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-02.jpg",
+          "alt": "Saran SM wearing a navy blue button-down shirt and grey trousers, standing in front of wooden paneling and green potted plants",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 20%",
+          "width": 140,
+          "height": 181,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-03.jpg",
+          "alt": "Saran SM wearing a white patterned short-sleeved shirt, taking a phone mirror selfie in front of a red wall with bold typography",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 26%",
+          "width": 140,
+          "height": 181,
+          "ratioCalc": "0.776"
+        },
+        {
+          "src": "http://localhost:3000/images/connect/connect-04.jpg",
+          "alt": "Saran SM wearing a black academic graduation gown with a red stole, holding a degree certificate outdoors",
+          "aspectRatioCSS": "3 / 4",
+          "objectPosition": "center 18%",
+          "width": 137,
+          "height": 179,
+          "ratioCalc": "0.769"
+        }
+      ]
+    }
+  },
+  "contactChooser": {
+    "dialogTriggerResult": true,
+    "dialogState": {
+      "isOpen": true,
+      "whatsappHref": "https://wa.me/919952875596?text=Hi%20Saran%2C%20I%20found%20your%20portfolio%20and%20I'd%20like%20to%20talk%20about%20a%20role%20or%20project.",
+      "whatsappTarget": "_blank",
+      "whatsappRel": "noopener noreferrer",
+      "emailHref": "mailto:smsaranx03@gmail.com?subject=Portfolio%20enquiry&body=Hi%20Saran%2C%0A%0A",
+      "copyBtnExists": true,
+      "closeBtnExists": true
+    },
+    "copyState": {},
+    "closedOnEsc": true
+  },
+  "viewports": {}
+}

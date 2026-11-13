@@ -1,0 +1,511 @@
+[
+  {
+    "viewport": "mobile_360x800",
+    "dimensions": "360x800",
+    "overflowCheck": {
+      "docWidth": 360,
+      "winWidth": 360,
+      "hasOverflow": false
+    },
+    "navTest": {
+      "burgerFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "contactTest": {
+      "btnFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "sectionStatus": {
+      "intro": {
+        "exists": true,
+        "width": 360,
+        "height": 800,
+        "scrollHeight": 800
+      },
+      "hero": {
+        "exists": true,
+        "width": 360,
+        "height": 920,
+        "scrollHeight": 920
+      },
+      "about": {
+        "exists": true,
+        "width": 360,
+        "height": 1005,
+        "scrollHeight": 1005
+      },
+      "journey": {
+        "exists": true,
+        "width": 360,
+        "height": 800,
+        "scrollHeight": 800
+      },
+      "stack": {
+        "exists": true,
+        "width": 360,
+        "height": 800,
+        "scrollHeight": 800
+      },
+      "work": {
+        "exists": true,
+        "width": 360,
+        "height": 889,
+        "scrollHeight": 889
+      },
+      "experience": {
+        "exists": true,
+        "width": 360,
+        "height": 2138,
+        "scrollHeight": 2138
+      },
+      "credentials": {
+        "exists": true,
+        "width": 360,
+        "height": 1399,
+        "scrollHeight": 1399
+      },
+      "connect": {
+        "exists": true,
+        "width": 360,
+        "height": 1268,
+        "scrollHeight": 1268
+      }
+    }
+  },
+  {
+    "viewport": "mobile_390x844",
+    "dimensions": "390x844",
+    "overflowCheck": {
+      "docWidth": 390,
+      "winWidth": 390,
+      "hasOverflow": false
+    },
+    "navTest": {
+      "burgerFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "contactTest": {
+      "btnFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "sectionStatus": {
+      "intro": {
+        "exists": true,
+        "width": 390,
+        "height": 844,
+        "scrollHeight": 844
+      },
+      "hero": {
+        "exists": true,
+        "width": 390,
+        "height": 912,
+        "scrollHeight": 912
+      },
+      "about": {
+        "exists": true,
+        "width": 390,
+        "height": 958,
+        "scrollHeight": 958
+      },
+      "journey": {
+        "exists": true,
+        "width": 390,
+        "height": 844,
+        "scrollHeight": 844
+      },
+      "stack": {
+        "exists": true,
+        "width": 390,
+        "height": 844,
+        "scrollHeight": 844
+      },
+      "work": {
+        "exists": true,
+        "width": 390,
+        "height": 844,
+        "scrollHeight": 844
+      },
+      "experience": {
+        "exists": true,
+        "width": 390,
+        "height": 2094,
+        "scrollHeight": 2094
+      },
+      "credentials": {
+        "exists": true,
+        "width": 390,
+        "height": 1305,
+        "scrollHeight": 1305
+      },
+      "connect": {
+        "exists": true,
+        "width": 390,
+        "height": 1250,
+        "scrollHeight": 1250
+      }
+    }
+  },
+  {
+    "viewport": "mobile_430x932",
+    "dimensions": "430x932",
+    "overflowCheck": {
+      "docWidth": 430,
+      "winWidth": 430,
+      "hasOverflow": false
+    },
+    "navTest": {
+      "burgerFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "contactTest": {
+      "btnFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "sectionStatus": {
+      "intro": {
+        "exists": true,
+        "width": 430,
+        "height": 932,
+        "scrollHeight": 932
+      },
+      "hero": {
+        "exists": true,
+        "width": 430,
+        "height": 947,
+        "scrollHeight": 947
+      },
+      "about": {
+        "exists": true,
+        "width": 430,
+        "height": 963,
+        "scrollHeight": 963
+      },
+      "journey": {
+        "exists": true,
+        "width": 430,
+        "height": 932,
+        "scrollHeight": 932
+      },
+      "stack": {
+        "exists": true,
+        "width": 430,
+        "height": 932,
+        "scrollHeight": 932
+      },
+      "work": {
+        "exists": true,
+        "width": 430,
+        "height": 847,
+        "scrollHeight": 847
+      },
+      "experience": {
+        "exists": true,
+        "width": 430,
+        "height": 2018,
+        "scrollHeight": 2018
+      },
+      "credentials": {
+        "exists": true,
+        "width": 430,
+        "height": 1300,
+        "scrollHeight": 1300
+      },
+      "connect": {
+        "exists": true,
+        "width": 430,
+        "height": 1247,
+        "scrollHeight": 1247
+      }
+    }
+  },
+  {
+    "viewport": "tablet_768x1024",
+    "dimensions": "768x1024",
+    "overflowCheck": {
+      "docWidth": 768,
+      "winWidth": 768,
+      "hasOverflow": false
+    },
+    "navTest": null,
+    "contactTest": {
+      "btnFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "sectionStatus": {
+      "intro": {
+        "exists": true,
+        "width": 768,
+        "height": 1024,
+        "scrollHeight": 1024
+      },
+      "hero": {
+        "exists": true,
+        "width": 768,
+        "height": 1024,
+        "scrollHeight": 1024
+      },
+      "about": {
+        "exists": true,
+        "width": 768,
+        "height": 871,
+        "scrollHeight": 871
+      },
+      "journey": {
+        "exists": true,
+        "width": 768,
+        "height": 1024,
+        "scrollHeight": 1024
+      },
+      "stack": {
+        "exists": true,
+        "width": 768,
+        "height": 1024,
+        "scrollHeight": 1024
+      },
+      "work": {
+        "exists": true,
+        "width": 768,
+        "height": 789,
+        "scrollHeight": 789
+      },
+      "experience": {
+        "exists": true,
+        "width": 768,
+        "height": 1522,
+        "scrollHeight": 1522
+      },
+      "credentials": {
+        "exists": true,
+        "width": 768,
+        "height": 1256,
+        "scrollHeight": 1256
+      },
+      "connect": {
+        "exists": true,
+        "width": 768,
+        "height": 1368,
+        "scrollHeight": 1368
+      }
+    }
+  },
+  {
+    "viewport": "desktop_1280x720",
+    "dimensions": "1280x720",
+    "overflowCheck": {
+      "docWidth": 1280,
+      "winWidth": 1280,
+      "hasOverflow": false
+    },
+    "navTest": null,
+    "contactTest": {
+      "btnFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "sectionStatus": {
+      "intro": {
+        "exists": true,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720
+      },
+      "hero": {
+        "exists": true,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720
+      },
+      "about": {
+        "exists": true,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720
+      },
+      "journey": {
+        "exists": true,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720
+      },
+      "stack": {
+        "exists": true,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720
+      },
+      "work": {
+        "exists": true,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720
+      },
+      "experience": {
+        "exists": true,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720
+      },
+      "credentials": {
+        "exists": true,
+        "width": 1280,
+        "height": 720,
+        "scrollHeight": 720
+      },
+      "connect": {
+        "exists": true,
+        "width": 1280,
+        "height": 968,
+        "scrollHeight": 968
+      }
+    }
+  },
+  {
+    "viewport": "desktop_1366x768",
+    "dimensions": "1366x768",
+    "overflowCheck": {
+      "docWidth": 1366,
+      "winWidth": 1366,
+      "hasOverflow": false
+    },
+    "navTest": null,
+    "contactTest": {
+      "btnFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "sectionStatus": {
+      "intro": {
+        "exists": true,
+        "width": 1366,
+        "height": 768,
+        "scrollHeight": 768
+      },
+      "hero": {
+        "exists": true,
+        "width": 1366,
+        "height": 768,
+        "scrollHeight": 768
+      },
+      "about": {
+        "exists": true,
+        "width": 1366,
+        "height": 768,
+        "scrollHeight": 768
+      },
+      "journey": {
+        "exists": true,
+        "width": 1366,
+        "height": 768,
+        "scrollHeight": 768
+      },
+      "stack": {
+        "exists": true,
+        "width": 1366,
+        "height": 768,
+        "scrollHeight": 768
+      },
+      "work": {
+        "exists": true,
+        "width": 1366,
+        "height": 768,
+        "scrollHeight": 768
+      },
+      "experience": {
+        "exists": true,
+        "width": 1366,
+        "height": 768,
+        "scrollHeight": 768
+      },
+      "credentials": {
+        "exists": true,
+        "width": 1366,
+        "height": 768,
+        "scrollHeight": 768
+      },
+      "connect": {
+        "exists": true,
+        "width": 1366,
+        "height": 968,
+        "scrollHeight": 968
+      }
+    }
+  },
+  {
+    "viewport": "desktop_1920x1080",
+    "dimensions": "1920x1080",
+    "overflowCheck": {
+      "docWidth": 1920,
+      "winWidth": 1920,
+      "hasOverflow": false
+    },
+    "navTest": null,
+    "contactTest": {
+      "btnFound": true,
+      "opened": true,
+      "closed": true
+    },
+    "sectionStatus": {
+      "intro": {
+        "exists": true,
+        "width": 1920,
+        "height": 1080,
+        "scrollHeight": 1080
+      },
+      "hero": {
+        "exists": true,
+        "width": 1920,
+        "height": 1080,
+        "scrollHeight": 1080
+      },
+      "about": {
+        "exists": true,
+        "width": 1920,
+        "height": 1080,
+        "scrollHeight": 1080
+      },
+      "journey": {
+        "exists": true,
+        "width": 1920,
+        "height": 1080,
+        "scrollHeight": 1080
+      },
+      "stack": {
+        "exists": true,
+        "width": 1920,
+        "height": 1080,
+        "scrollHeight": 1080
+      },
+      "work": {
+        "exists": true,
+        "width": 1920,
+        "height": 1080,
+        "scrollHeight": 1080
+      },
+      "experience": {
+        "exists": true,
+        "width": 1920,
+        "height": 1080,
+        "scrollHeight": 1080
+      },
+      "credentials": {
+        "exists": true,
+        "width": 1920,
+        "height": 1080,
+        "scrollHeight": 1080
+      },
+      "connect": {
+        "exists": true,
+        "width": 1920,
+        "height": 968,
+        "scrollHeight": 968
+      }
+    }
+  }
+]

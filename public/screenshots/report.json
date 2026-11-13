@@ -1,0 +1,422 @@
+{
+  "1280x720": {
+    "hero": {
+      "vh": 720,
+      "vw": 1280,
+      "scrollY": 0,
+      "eyebrow": {
+        "top": 78,
+        "bottom": 94
+      },
+      "greeting": {
+        "top": 100,
+        "bottom": 119
+      },
+      "headline": {
+        "top": 120,
+        "bottom": 153
+      },
+      "subline": {
+        "top": 159,
+        "bottom": 193
+      },
+      "buttons": {
+        "top": 202,
+        "bottom": 244
+      },
+      "portraitArch": {
+        "top": 377,
+        "bottom": 665,
+        "height": 288
+      },
+      "statCards": [
+        {
+          "top": 567,
+          "bottom": 661,
+          "left": 245,
+          "right": 428
+        },
+        {
+          "top": 567,
+          "bottom": 661,
+          "left": 852,
+          "right": 1035
+        }
+      ],
+      "allInsideViewport": true
+    },
+    "about": {
+      "cardCount": 3,
+      "cards": [
+        {
+          "top": 452,
+          "bottom": 533
+        },
+        {
+          "top": 533,
+          "bottom": 614
+        },
+        {
+          "top": 615,
+          "bottom": 696
+        }
+      ],
+      "allVisible": true
+    },
+    "journey": {
+      "date": "April 2024 – May 2024",
+      "desc": "UI/UX Design Intern. Worked with senior designers on user research, wireframing and prototyping."
+    },
+    "workAnim": {
+      "activeFilter": "Animated (5)",
+      "cardCount": 5
+    },
+    "credentials": {
+      "eyebrowLeft": 44,
+      "eyebrowTop": 134,
+      "isClipped": false,
+      "panelCount": 3,
+      "hasVerifiedBadge": false
+    },
+    "connect": {
+      "h2Text": "Open to UI/UX roles and product design collaborations.",
+      "photoCount": 28
+    }
+  },
+  "1366x768": {
+    "hero": {
+      "vh": 768,
+      "vw": 1366,
+      "scrollY": 0,
+      "eyebrow": {
+        "top": 81,
+        "bottom": 97
+      },
+      "greeting": {
+        "top": 100,
+        "bottom": 119
+      },
+      "headline": {
+        "top": 126,
+        "bottom": 162
+      },
+      "subline": {
+        "top": 168,
+        "bottom": 203
+      },
+      "buttons": {
+        "top": 212,
+        "bottom": 254
+      },
+      "portraitArch": {
+        "top": 403,
+        "bottom": 710,
+        "height": 307
+      },
+      "statCards": [
+        {
+          "top": 610,
+          "bottom": 706,
+          "left": 276,
+          "right": 471
+        },
+        {
+          "top": 610,
+          "bottom": 706,
+          "left": 895,
+          "right": 1090
+        }
+      ],
+      "allInsideViewport": true
+    },
+    "about": {
+      "cardCount": 3,
+      "cards": [
+        {
+          "top": 460,
+          "bottom": 541
+        },
+        {
+          "top": 541,
+          "bottom": 622
+        },
+        {
+          "top": 623,
+          "bottom": 704
+        }
+      ],
+      "allVisible": true
+    },
+    "journey": {
+      "date": "April 2024 – May 2024",
+      "desc": "UI/UX Design Intern. Worked with senior designers on user research, wireframing and prototyping."
+    },
+    "workAnim": {
+      "activeFilter": "Animated (5)",
+      "cardCount": 5
+    },
+    "credentials": {
+      "eyebrowLeft": 87,
+      "eyebrowTop": 134,
+      "isClipped": false,
+      "panelCount": 3,
+      "hasVerifiedBadge": false
+    },
+    "connect": {
+      "h2Text": "Open to UI/UX roles and product design collaborations.",
+      "photoCount": 28
+    }
+  },
+  "1440x900": {
+    "hero": {
+      "vh": 900,
+      "vw": 1440,
+      "scrollY": 0,
+      "eyebrow": {
+        "top": 92,
+        "bottom": 108
+      },
+      "greeting": {
+        "top": 112,
+        "bottom": 131
+      },
+      "headline": {
+        "top": 139,
+        "bottom": 181
+      },
+      "subline": {
+        "top": 188,
+        "bottom": 223
+      },
+      "buttons": {
+        "top": 233,
+        "bottom": 276
+      },
+      "portraitArch": {
+        "top": 476,
+        "bottom": 836,
+        "height": 360
+      },
+      "statCards": [
+        {
+          "top": 723,
+          "bottom": 830,
+          "left": 312,
+          "right": 508
+        },
+        {
+          "top": 723,
+          "bottom": 830,
+          "left": 932,
+          "right": 1128
+        }
+      ],
+      "allInsideViewport": true
+    },
+    "about": {
+      "cardCount": 3,
+      "cards": [
+        {
+          "top": 516,
+          "bottom": 597
+        },
+        {
+          "top": 597,
+          "bottom": 678
+        },
+        {
+          "top": 678,
+          "bottom": 760
+        }
+      ],
+      "allVisible": true
+    },
+    "journey": {
+      "date": "April 2024 – May 2024",
+      "desc": "UI/UX Design Intern. Worked with senior designers on user research, wireframing and prototyping."
+    },
+    "workAnim": {
+      "activeFilter": "Animated (5)",
+      "cardCount": 5
+    },
+    "credentials": {
+      "eyebrowLeft": 124,
+      "eyebrowTop": 150,
+      "isClipped": false,
+      "panelCount": 3,
+      "hasVerifiedBadge": false
+    },
+    "connect": {
+      "h2Text": "Open to UI/UX roles and product design collaborations.",
+      "photoCount": 28
+    }
+  },
+  "1536x864": {
+    "hero": {
+      "vh": 864,
+      "vw": 1536,
+      "scrollY": 0,
+      "eyebrow": {
+        "top": 91,
+        "bottom": 107
+      },
+      "greeting": {
+        "top": 110,
+        "bottom": 129
+      },
+      "headline": {
+        "top": 137,
+        "bottom": 177
+      },
+      "subline": {
+        "top": 184,
+        "bottom": 219
+      },
+      "buttons": {
+        "top": 229,
+        "bottom": 271
+      },
+      "portraitArch": {
+        "top": 456,
+        "bottom": 802,
+        "height": 346
+      },
+      "statCards": [
+        {
+          "top": 693,
+          "bottom": 796,
+          "left": 360,
+          "right": 556
+        },
+        {
+          "top": 693,
+          "bottom": 796,
+          "left": 980,
+          "right": 1176
+        }
+      ],
+      "allInsideViewport": true
+    },
+    "about": {
+      "cardCount": 3,
+      "cards": [
+        {
+          "top": 470,
+          "bottom": 551
+        },
+        {
+          "top": 551,
+          "bottom": 632
+        },
+        {
+          "top": 633,
+          "bottom": 714
+        }
+      ],
+      "allVisible": true
+    },
+    "journey": {
+      "date": "April 2024 – May 2024",
+      "desc": "UI/UX Design Intern. Worked with senior designers on user research, wireframing and prototyping."
+    },
+    "workAnim": {
+      "activeFilter": "Animated (5)",
+      "cardCount": 5
+    },
+    "credentials": {
+      "eyebrowLeft": 172,
+      "eyebrowTop": 150,
+      "isClipped": false,
+      "panelCount": 3,
+      "hasVerifiedBadge": false
+    },
+    "connect": {
+      "h2Text": "Open to UI/UX roles and product design collaborations.",
+      "photoCount": 28
+    }
+  },
+  "1920x1080": {
+    "hero": {
+      "vh": 1080,
+      "vw": 1920,
+      "scrollY": 0,
+      "eyebrow": {
+        "top": 92,
+        "bottom": 110
+      },
+      "greeting": {
+        "top": 115,
+        "bottom": 137
+      },
+      "headline": {
+        "top": 147,
+        "bottom": 197
+      },
+      "subline": {
+        "top": 205,
+        "bottom": 244
+      },
+      "buttons": {
+        "top": 257,
+        "bottom": 299
+      },
+      "portraitArch": {
+        "top": 588,
+        "bottom": 1008,
+        "height": 420
+      },
+      "statCards": [
+        {
+          "top": 880,
+          "bottom": 1000,
+          "left": 551,
+          "right": 749
+        },
+        {
+          "top": 880,
+          "bottom": 1000,
+          "left": 1171,
+          "right": 1369
+        }
+      ],
+      "allInsideViewport": true
+    },
+    "about": {
+      "cardCount": 3,
+      "cards": [
+        {
+          "top": 542,
+          "bottom": 624
+        },
+        {
+          "top": 624,
+          "bottom": 705
+        },
+        {
+          "top": 705,
+          "bottom": 786
+        }
+      ],
+      "allVisible": true
+    },
+    "journey": {
+      "date": "April 2024 – May 2024",
+      "desc": "UI/UX Design Intern. Worked with senior designers on user research, wireframing and prototyping."
+    },
+    "workAnim": {
+      "activeFilter": "Animated (5)",
+      "cardCount": 5
+    },
+    "credentials": {
+      "eyebrowLeft": 364,
+      "eyebrowTop": 150,
+      "isClipped": false,
+      "panelCount": 3,
+      "hasVerifiedBadge": false
+    },
+    "connect": {
+      "h2Text": "Open to UI/UX roles and product design collaborations.",
+      "photoCount": 28
+    }
+  }
+}

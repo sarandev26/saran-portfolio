@@ -1,0 +1,330 @@
+/* ============ LET'S CONNECT — the closing chapter ============ */
+
+.connect {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  padding: 120px 0 0;
+}
+
+.stage {
+  position: relative;
+  max-width: 1380px;
+  min-height: 580px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+.head {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 5;
+}
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.eyebrow::after {
+  content: "";
+  display: inline-block;
+  width: 34px;
+  height: 1px;
+  background: var(--accent);
+}
+.eyebrow span {
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+.h2 {
+  margin-top: 18px;
+  font-weight: 900;
+  font-size: clamp(38px, 5.8vw, 84px);
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+}
+.serif {
+  font-family: var(--font-serif), Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+}
+.lede {
+  margin: 20px auto 0;
+  max-width: 480px;
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+.cta {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------- 4-photo composed collage cards ---------- */
+.collageGroup {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.collageCard {
+  position: absolute;
+  pointer-events: auto;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 48px -12px rgba(20, 20, 20, 0.16), 0 0 0 1px rgba(20, 20, 20, 0.08);
+  background: var(--ph);
+  z-index: 2;
+  transform: rotate(var(--card-rotate, 0deg));
+  transition: transform 0.4s var(--ease-out-expo), box-shadow 0.4s ease, border-color 0.4s ease;
+  will-change: transform;
+}
+.collageCard:hover {
+  transform: rotate(0deg) scale(1.05) !important;
+  box-shadow: 0 30px 70px -14px rgba(20, 20, 20, 0.26), 0 0 0 1px rgba(255, 46, 15, 0.35);
+  z-index: 10;
+}
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.imageWrapper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Precise card coordinates framing the headline without obscuring text — all 4 equal compact size */
+.photoTopLeft {
+  top: 15px;
+  left: 4%;
+  width: clamp(125px, 12.5vw, 185px);
+}
+.photoTopRight {
+  top: 15px;
+  right: 4%;
+  width: clamp(125px, 12.5vw, 185px);
+}
+.photoBottomLeft {
+  bottom: 15px;
+  left: 5%;
+  width: clamp(125px, 12.5vw, 185px);
+}
+.photoBottomRight {
+  bottom: 15px;
+  right: 5%;
+  width: clamp(125px, 12.5vw, 185px);
+}
+
+/* ============ Mobile & Tablet Responsive: Tidy 2x2 Grid under Headline ============ */
+@media (max-width: 1024px) {
+  .connect {
+    padding: clamp(50px, 8vh, 80px) 0 32px;
+    height: auto;
+    min-height: auto;
+  }
+  .stage {
+    flex-direction: column;
+    min-height: auto;
+    height: auto;
+    padding: 0 16px;
+    gap: clamp(24px, 4vh, 36px);
+  }
+  .head {
+    position: relative;
+    z-index: 5;
+    padding: 0 8px;
+    max-width: 620px;
+  }
+  .h2 {
+    font-size: clamp(32px, 6.5vw, 56px);
+  }
+  .collageGroup {
+    position: relative;
+    inset: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: clamp(12px, 2.5vw, 18px);
+    width: 100%;
+    max-width: min(560px, 92vw);
+    margin: 0 auto;
+    pointer-events: auto;
+    z-index: 2;
+  }
+  .collageCard {
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    transform: rotate(var(--card-rotate-mobile, 0deg)) !important;
+    box-shadow: 0 12px 28px -8px rgba(20, 20, 20, 0.12), 0 0 0 1px rgba(20, 20, 20, 0.06);
+  }
+  .socials {
+    margin: 36px auto 0;
+    gap: 10px;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .collageGroup {
+    max-width: min(360px, 92vw);
+    gap: 10px;
+  }
+  .h2 {
+    font-size: clamp(28px, 8.5vw, 36px);
+  }
+}
+
+/* ---------- social cards ---------- */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 52px auto 0;
+  padding: 0 24px;
+  position: relative;
+  z-index: 5;
+}
+.social {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 22px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 28px -12px rgba(20, 20, 20, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+  isolation: isolate;
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink-2);
+  transition: color 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+.socialBtn {
+  color: inherit;
+  font-family: inherit;
+}
+.social::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 240%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--ink);
+  transform: translate(-50%, 0) scale(0);
+  transition: transform 0.5s cubic-bezier(0.33, 1, 0.68, 1);
+  z-index: -1;
+}
+.social:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+.glyph {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  background: rgba(20, 20, 20, 0.06);
+  font-size: 12px;
+  font-weight: 900;
+  color: var(--ink);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.glyph svg {
+  width: 14px;
+  height: 14px;
+}
+.social:hover .glyph {
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+}
+.social:hover {
+  color: #fff;
+  border-color: var(--ink);
+}
+.roll {
+  display: inline-flex;
+  flex-direction: column;
+  height: 1.25em;
+  line-height: 1.25;
+  overflow: hidden;
+}
+.roll > span {
+  display: block;
+  transition: transform 0.38s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.social:hover .roll > span {
+  transform: translateY(-100%);
+}
+.arrow {
+  color: var(--ink-3);
+  font-weight: 600;
+  transition: transform 0.35s var(--ease-out-expo), color 0.3s ease;
+}
+.social:hover .arrow {
+  color: #fff;
+  transform: translate(2px, -2px);
+}
+
+/* ---------- footer ---------- */
+.footer {
+  margin-top: 72px;
+  padding: 32px 36px 36px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 13px;
+  color: var(--ink-3);
+  position: relative;
+  z-index: 5;
+}
+.top {
+  color: var(--ink-2);
+  font-weight: 700;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.top:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+@media (max-width: 640px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+}

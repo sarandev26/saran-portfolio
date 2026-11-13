@@ -1,0 +1,250 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 15, 25, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 9998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s ease;
+}
+
+.backdropVisible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.96);
+  z-index: 9999;
+  width: calc(100% - 32px);
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 24px;
+  border: 1px solid rgba(20, 20, 20, 0.08);
+  box-shadow: 0 28px 64px -14px rgba(15, 23, 42, 0.38), 0 0 0 1px rgba(15, 23, 42, 0.04);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1), transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dialogVisible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--ink-1, #141414);
+  margin: 0;
+}
+
+.closeBtn {
+  background: rgba(20, 20, 20, 0.05);
+  border: none;
+  color: var(--ink-3, #71717a);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.closeBtn:hover,
+.closeBtn:focus-visible {
+  background: rgba(20, 20, 20, 0.1);
+  color: var(--ink-1, #141414);
+  transform: scale(1.05);
+  outline: none;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.optionCard {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  background: #f8f8fa;
+  border: 1px solid rgba(20, 20, 20, 0.06);
+  border-radius: 16px;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.18s ease, border-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.optionCard:hover,
+.optionCard:focus-visible {
+  background: #ffffff;
+  border-color: rgba(20, 20, 20, 0.15);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px -6px rgba(15, 23, 42, 0.08);
+  outline: none;
+}
+
+.optionCard:focus-visible {
+  box-shadow: 0 0 0 2px var(--accent, #e05a30);
+}
+
+.iconWrap {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.whatsappWrap {
+  background: #25d366;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.32);
+}
+
+.gmailWrap {
+  background: #ffffff;
+  border: 1px solid rgba(20, 20, 20, 0.08);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.whatsappIcon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.gmailIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+  min-width: 0;
+}
+
+.optionTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink-1, #141414);
+  line-height: 1.2;
+}
+
+.optionSub {
+  font-size: 11.5px;
+  color: var(--ink-3, #71717a);
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.arrow {
+  color: var(--ink-3, #71717a);
+  font-size: 15px;
+  font-weight: 700;
+  transition: transform 0.18s ease, color 0.18s ease;
+  flex-shrink: 0;
+}
+
+.optionCard:hover .arrow {
+  transform: translate(2px, -2px);
+  color: var(--accent, #e05a30);
+}
+
+/* Email container with action buttons */
+.emailCardGroup {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.emailCardGroup .optionCard {
+  flex: 1;
+}
+
+.copyBtn {
+  background: #f8f8fa;
+  border: 1px solid rgba(20, 20, 20, 0.06);
+  border-radius: 16px;
+  padding: 0 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+  color: var(--ink-2, #3f3f46);
+  font-size: 10.5px;
+  font-weight: 700;
+  transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+  flex-shrink: 0;
+  min-width: 64px;
+}
+
+.copyBtn:hover,
+.copyBtn:focus-visible {
+  background: #ffffff;
+  border-color: rgba(20, 20, 20, 0.15);
+  color: var(--ink-1, #141414);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.copyBtn:focus-visible {
+  box-shadow: 0 0 0 2px var(--accent, #e05a30);
+}
+
+.copyBtnCopied {
+  background: rgba(16, 185, 129, 0.12) !important;
+  border-color: #10b981 !important;
+  color: #10b981 !important;
+}
+
+.copyIcon {
+  width: 16px;
+  height: 16px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backdrop,
+  .dialog,
+  .optionCard,
+  .copyBtn {
+    transition: none !important;
+    animation: none !important;
+  }
+}

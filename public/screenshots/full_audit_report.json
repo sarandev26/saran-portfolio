@@ -1,0 +1,533 @@
+{
+  "viewports": {},
+  "introVerification": {
+    "1280x720": {
+      "hasIntroEl": true,
+      "hasCanvas": true,
+      "canvasW": 1280,
+      "canvasH": 720,
+      "hasMask": true,
+      "maskUrlLength": 59749,
+      "hintText": "Scroll to enter",
+      "progText": "0106"
+    },
+    "1366x768": {
+      "hasIntroEl": true,
+      "hasCanvas": true,
+      "canvasW": 1366,
+      "canvasH": 768,
+      "hasMask": true,
+      "maskUrlLength": 65557,
+      "hintText": "Scroll to enter",
+      "progText": "0106"
+    },
+    "1440x900": {
+      "hasIntroEl": true,
+      "hasCanvas": true,
+      "canvasW": 1440,
+      "canvasH": 900,
+      "hasMask": true,
+      "maskUrlLength": 75365,
+      "hintText": "Scroll to enter",
+      "progText": "0106"
+    },
+    "1920x1080": {
+      "hasIntroEl": true,
+      "hasCanvas": true,
+      "canvasW": 1920,
+      "canvasH": 1080,
+      "hasMask": true,
+      "maskUrlLength": 108589,
+      "hintText": "Scroll to enter",
+      "progText": "0106"
+    },
+    "390x844_mobile": {
+      "hasIntroEl": true,
+      "hasCanvas": true,
+      "canvasW": 390,
+      "canvasH": 844,
+      "hasMask": true,
+      "maskUrlLength": 23945,
+      "hintText": "Scroll to enter",
+      "progText": "0106"
+    }
+  },
+  "heroOverlapVerification": {
+    "1280x720": {
+      "vh": 720,
+      "vw": 1280,
+      "kicker": {
+        "top": 258,
+        "bottom": 277
+      },
+      "h1": {
+        "top": 285,
+        "bottom": 436
+      },
+      "sub": {
+        "top": 444,
+        "bottom": 507
+      },
+      "ctas": {
+        "top": 519,
+        "bottom": 561
+      },
+      "portrait": {
+        "top": 646,
+        "bottom": 862,
+        "width": 193,
+        "height": 216,
+        "src": "http://localhost:3000/images/saran-hero.jpg"
+      },
+      "arch": {
+        "top": 646,
+        "bottom": 862,
+        "height": 216
+      },
+      "statCardsCount": 2,
+      "hasOverlap": false,
+      "overlapDetails": {
+        "kickerH1Overlap": false,
+        "h1SubOverlap": false,
+        "subCtasOverlap": false,
+        "ctasPortraitOverlap": false,
+        "ctasToPortraitGap": 85
+      }
+    },
+    "1366x768": {
+      "vh": 768,
+      "vw": 1366,
+      "kicker": {
+        "top": 261,
+        "bottom": 280
+      },
+      "h1": {
+        "top": 289,
+        "bottom": 449
+      },
+      "sub": {
+        "top": 458,
+        "bottom": 523
+      },
+      "ctas": {
+        "top": 535,
+        "bottom": 578
+      },
+      "portrait": {
+        "top": 678,
+        "bottom": 909,
+        "width": 206,
+        "height": 230,
+        "src": "http://localhost:3000/images/saran-hero.jpg"
+      },
+      "arch": {
+        "top": 678,
+        "bottom": 909,
+        "height": 230
+      },
+      "statCardsCount": 2,
+      "hasOverlap": false,
+      "overlapDetails": {
+        "kickerH1Overlap": false,
+        "h1SubOverlap": false,
+        "subCtasOverlap": false,
+        "ctasPortraitOverlap": false,
+        "ctasToPortraitGap": 101
+      }
+    },
+    "1440x900": {
+      "vh": 900,
+      "vw": 1440,
+      "kicker": {
+        "top": 273,
+        "bottom": 292
+      },
+      "h1": {
+        "top": 302,
+        "bottom": 471
+      },
+      "sub": {
+        "top": 481,
+        "bottom": 550
+      },
+      "ctas": {
+        "top": 564,
+        "bottom": 607
+      },
+      "portrait": {
+        "top": 765,
+        "bottom": 1035,
+        "width": 241,
+        "height": 270,
+        "src": "http://localhost:3000/images/saran-hero.jpg"
+      },
+      "arch": {
+        "top": 765,
+        "bottom": 1035,
+        "height": 270
+      },
+      "statCardsCount": 2,
+      "hasOverlap": false,
+      "overlapDetails": {
+        "kickerH1Overlap": false,
+        "h1SubOverlap": false,
+        "subCtasOverlap": false,
+        "ctasPortraitOverlap": false,
+        "ctasToPortraitGap": 159
+      }
+    },
+    "1920x1080": {
+      "vh": 1080,
+      "vw": 1920,
+      "kicker": {
+        "top": 278,
+        "bottom": 297
+      },
+      "h1": {
+        "top": 309,
+        "bottom": 494
+      },
+      "sub": {
+        "top": 506,
+        "bottom": 577
+      },
+      "ctas": {
+        "top": 594,
+        "bottom": 636
+      },
+      "portrait": {
+        "top": 884,
+        "bottom": 1208,
+        "width": 289,
+        "height": 324,
+        "src": "http://localhost:3000/images/saran-hero.jpg"
+      },
+      "arch": {
+        "top": 884,
+        "bottom": 1208,
+        "height": 324
+      },
+      "statCardsCount": 2,
+      "hasOverlap": false,
+      "overlapDetails": {
+        "kickerH1Overlap": false,
+        "h1SubOverlap": false,
+        "subCtasOverlap": false,
+        "ctasPortraitOverlap": false,
+        "ctasToPortraitGap": 248
+      }
+    },
+    "390x844_mobile": {
+      "vh": 844,
+      "vw": 390,
+      "kicker": {
+        "top": 288,
+        "bottom": 326
+      },
+      "h1": {
+        "top": 336,
+        "bottom": 452
+      },
+      "sub": {
+        "top": 461,
+        "bottom": 546
+      },
+      "ctas": {
+        "top": 560,
+        "bottom": 652
+      },
+      "portrait": {
+        "top": 676,
+        "bottom": 979,
+        "width": 270,
+        "height": 302,
+        "src": "http://localhost:3000/images/saran-hero.jpg"
+      },
+      "arch": {
+        "top": 676,
+        "bottom": 979,
+        "height": 302
+      },
+      "statCardsCount": 2,
+      "hasOverlap": false,
+      "overlapDetails": {
+        "kickerH1Overlap": false,
+        "h1SubOverlap": false,
+        "subCtasOverlap": false,
+        "ctasPortraitOverlap": false,
+        "ctasToPortraitGap": 24
+      }
+    }
+  },
+  "sectionEyebrows": [
+    {
+      "tag": "P",
+      "className": "About-module__WabD6q__eyebrow",
+      "text": "About",
+      "hasLeadingNumber": false
+    },
+    {
+      "tag": "P",
+      "className": "LightJourney-module__0XiSFa__introLabel",
+      "text": "Journey",
+      "hasLeadingNumber": false
+    },
+    {
+      "tag": "P",
+      "className": "DesignStack-module__zKngmG__eyebrow",
+      "text": "Design Stack",
+      "hasLeadingNumber": false
+    },
+    {
+      "tag": "P",
+      "className": "Work-module__Nond8G__eyebrow",
+      "text": "Work",
+      "hasLeadingNumber": false
+    },
+    {
+      "tag": "P",
+      "className": "Experience-module__NmKITa__eyebrow",
+      "text": "Experience",
+      "hasLeadingNumber": false
+    },
+    {
+      "tag": "P",
+      "className": "Certifications-module__RR3i5a__eyebrow",
+      "text": "Credentials",
+      "hasLeadingNumber": false
+    },
+    {
+      "tag": "P",
+      "className": "Connect-module__H0YNCq__eyebrow",
+      "text": "Connect",
+      "hasLeadingNumber": false
+    }
+  ],
+  "journeyLastChapter": {
+    "count": 4,
+    "lastHeadline": "Beyond work",
+    "lastDate": "Personal · Ongoing",
+    "lastDesc": "Outside my job, I'm learning AI-powered design and vibe coding, building premium, luxury-feel animated 3D scroll websites on my own."
+  },
+  "toolsVerification": {
+    "countText": "16 tools · 3 disciplines",
+    "totalCards": 16,
+    "names": [
+      "Figma",
+      "Framer",
+      "Canva",
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Stitch",
+      "v0",
+      "Bloom",
+      "Rork",
+      "Google Flow",
+      "Lovable",
+      "Replit",
+      "Base44",
+      "Antigravity",
+      "Cursor"
+    ]
+  },
+  "experiencePanelHeight": {
+    "1280x720": {
+      "boardWidth": 984,
+      "boardHeight": 303,
+      "cssPanelH": "clamp(250px, min(42vh, calc(100vh - 380px)), 375px)"
+    },
+    "1366x768": {
+      "boardWidth": 1051,
+      "boardHeight": 323,
+      "cssPanelH": "clamp(250px, min(42vh, calc(100vh - 380px)), 375px)"
+    },
+    "1440x900": {
+      "boardWidth": 1109,
+      "boardHeight": 376,
+      "cssPanelH": "clamp(250px, min(42vh, calc(100vh - 380px)), 375px)"
+    },
+    "1920x1080": {
+      "boardWidth": 1196,
+      "boardHeight": 376,
+      "cssPanelH": "clamp(250px, min(42vh, calc(100vh - 380px)), 375px)"
+    },
+    "390x844_mobile": {
+      "boardWidth": 342,
+      "boardHeight": 697,
+      "cssPanelH": "clamp(250px, min(42vh, calc(100vh - 380px)), 375px)"
+    }
+  },
+  "connectVerification": {
+    "1280x720": [
+      {
+        "width": 223,
+        "height": 287,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.779",
+        "imgSrc": "http://localhost:3000/images/connect-top-left.jpg",
+        "objectPosition": "center 18%"
+      },
+      {
+        "width": 180,
+        "height": 232,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-04.jpg",
+        "objectPosition": "center center"
+      },
+      {
+        "width": 162,
+        "height": 211,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.769",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-02.jpg",
+        "objectPosition": "center 25%"
+      },
+      {
+        "width": 187,
+        "height": 241,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-06.jpg",
+        "objectPosition": "center center"
+      }
+    ],
+    "1366x768": [
+      {
+        "width": 238,
+        "height": 306,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.779",
+        "imgSrc": "http://localhost:3000/images/connect-top-left.jpg",
+        "objectPosition": "center 18%"
+      },
+      {
+        "width": 192,
+        "height": 247,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-04.jpg",
+        "objectPosition": "center center"
+      },
+      {
+        "width": 173,
+        "height": 225,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.769",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-02.jpg",
+        "objectPosition": "center 25%"
+      },
+      {
+        "width": 199,
+        "height": 257,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-06.jpg",
+        "objectPosition": "center center"
+      }
+    ],
+    "1440x900": [
+      {
+        "width": 251,
+        "height": 323,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.779",
+        "imgSrc": "http://localhost:3000/images/connect-top-left.jpg",
+        "objectPosition": "center 18%"
+      },
+      {
+        "width": 202,
+        "height": 261,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-04.jpg",
+        "objectPosition": "center center"
+      },
+      {
+        "width": 183,
+        "height": 238,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.769",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-02.jpg",
+        "objectPosition": "center 25%"
+      },
+      {
+        "width": 210,
+        "height": 271,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-06.jpg",
+        "objectPosition": "center center"
+      }
+    ],
+    "1920x1080": [
+      {
+        "width": 262,
+        "height": 336,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.779",
+        "imgSrc": "http://localhost:3000/images/connect-top-left.jpg",
+        "objectPosition": "center 18%"
+      },
+      {
+        "width": 205,
+        "height": 264,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-04.jpg",
+        "objectPosition": "center center"
+      },
+      {
+        "width": 190,
+        "height": 248,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.768",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-02.jpg",
+        "objectPosition": "center 25%"
+      },
+      {
+        "width": 216,
+        "height": 278,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-06.jpg",
+        "objectPosition": "center center"
+      }
+    ],
+    "390x844_mobile": [
+      {
+        "width": 142,
+        "height": 182,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.779",
+        "imgSrc": "http://localhost:3000/images/connect-top-left.jpg",
+        "objectPosition": "center 18%"
+      },
+      {
+        "width": 140,
+        "height": 181,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-04.jpg",
+        "objectPosition": "center center"
+      },
+      {
+        "width": 137,
+        "height": 179,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.769",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-02.jpg",
+        "objectPosition": "center 25%"
+      },
+      {
+        "width": 140,
+        "height": 181,
+        "aspectRatioCSS": "3 / 4",
+        "ratioCalculated": "0.776",
+        "imgSrc": "http://localhost:3000/images/gallery/saran-06.jpg",
+        "objectPosition": "center center"
+      }
+    ]
+  }
+}
