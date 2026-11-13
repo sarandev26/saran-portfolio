@@ -8,6 +8,9 @@
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   overflow: hidden;
+  overflow-x: clip;
+  max-width: 100vw;
+  width: 100%;
   padding: 96px 0;
 }
 .deckMode {
@@ -27,7 +30,8 @@
   left: 50%;
   top: 52%;
   transform: translate(-50%, -50%);
-  width: min(1200px, 118vw);
+  width: min(1200px, 100vw);
+  max-width: 100vw;
   height: min(720px, 92vh);
   border-radius: 50%;
   background: rgba(0, 114, 227, 0.07);
@@ -577,6 +581,13 @@
 @media (max-width: 1000px) {
   .experience {
     padding: 80px 0;
+    overflow-x: clip;
+    max-width: 100vw;
+    width: 100%;
+  }
+  .tint {
+    width: 100vw;
+    max-width: 100%;
   }
   .header {
     padding: 0 24px;

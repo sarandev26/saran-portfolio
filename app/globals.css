@@ -26,6 +26,9 @@
 
 html {
   scroll-behavior: auto; /* Lenis owns scrolling */
+  overflow-x: clip;
+  max-width: 100vw;
+  width: 100%;
 }
 
 /* fixed header must never cover the top of a section — this covers native
@@ -73,6 +76,15 @@ body {
      makes body a scroll container and silently disables position:sticky
      anywhere on the page. Keeping `clip` leaves that door open. */
   overflow-x: clip;
+  max-width: 100vw;
+  width: 100%;
+}
+
+main {
+  overflow-x: clip;
+  max-width: 100vw;
+  width: 100%;
+  position: relative;
 }
 
 img {

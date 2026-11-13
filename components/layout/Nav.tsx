@@ -2,6 +2,7 @@
 
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { gsap, ScrollTrigger } from "@/lib/gsap";
+import { getLenis } from "@/lib/lenis";
 import styles from "./Nav.module.css";
 
 const LINKS = [
@@ -68,9 +69,11 @@ export default function Nav() {
     window.addEventListener("keydown", onKey);
     const prev = document.body.style.overflow;
     document.body.style.overflow = "hidden";
+    getLenis()?.stop();
     return () => {
       window.removeEventListener("keydown", onKey);
       document.body.style.overflow = prev;
+      getLenis()?.start();
     };
   }, [menuOpen]);
 
@@ -156,7 +159,7 @@ export default function Nav() {
 
   return (
     <header className={styles.wrap} ref={ref}>
-      <div className={styles.cap}>
+      <div className={`${styles.cap} ${menuOpen ? styles.capOpen : ""}`}>
         <a
           href="#home"
           className={styles.logo}

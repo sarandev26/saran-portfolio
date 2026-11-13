@@ -14,6 +14,9 @@
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  overflow-x: clip;
+  max-width: 100vw;
+  width: 100%;
   padding-top: clamp(66px, 9svh, 86px);
   gap: clamp(6px, 1.2svh, 16px);
 }
@@ -24,6 +27,8 @@
   inset: 0;
   z-index: 0;
   pointer-events: none;
+  overflow: hidden;
+  max-width: 100vw;
 }
 .plusA,
 .plusB {
@@ -285,7 +290,10 @@
     height: auto;
     min-height: 100svh;
     max-height: none;
-    overflow: visible;
+    overflow-x: clip;
+    overflow-y: visible;
+    max-width: 100vw;
+    width: 100%;
     padding-top: clamp(80px, 11svh, 100px);
     padding-bottom: 36px;
     gap: clamp(14px, 2svh, 22px);
@@ -374,10 +382,19 @@
 
 @media (max-width: 560px) {
   .h1 {
-    font-size: clamp(30px, 8.5vw, 44px);
+    font-size: clamp(28px, 8vw, 40px);
+  }
+  .sub {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 4px;
   }
   .ctas {
     flex-wrap: wrap;
+    justify-content: center;
     gap: 8px;
+    width: 100%;
+    max-width: 340px;
+    margin: 12px auto 0;
   }
 }
